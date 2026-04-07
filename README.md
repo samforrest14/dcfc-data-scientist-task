@@ -51,9 +51,9 @@ Then open:
 
 ## Running the Streamlit App
 
-From the repository root:
+From the repository root, run in Python:
 ```bash
-streamlit run streamlit_app/app.py
+python -m streamlit run streamlit_app/app.py
 ```
 
 The app allows users to simulate different passing scenarios and understand how pass destination, defensive context, and delivery type influence the likelihood of direct shot creation.
