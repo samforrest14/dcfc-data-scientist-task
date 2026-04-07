@@ -58,6 +58,8 @@ streamlit run streamlit_app/app.py
 
 The app allows users to simulate different passing scenarios and understand how pass destination, defensive context, and delivery type influence the likelihood of direct shot creation.
 
+I have also deployed the Streamlit App using Streamlit Cloud so it does not need to be run locally. It can be accessed at the following link: https://dcfc-data-scientist-task-qyde5acdq2euwjb75we3fy.streamlit.app/
+
 ## Model interpretation
 The final logistic regression model is intended as an interpretive tool rather than a predictive model.
 
