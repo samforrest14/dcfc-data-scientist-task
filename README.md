@@ -21,7 +21,7 @@ How attacking patterns should be designed and reviewed in order to improve direc
 ## Repository Structure
 
 - `project_outputs/` – main analytical notebook and 1-page written summary PDF
-- `streamlit_app/` – lightweight Streamlit decision-support tool
+- `streamlit_app/` – lightweight Streamlit relationship visualisation tool
 - `requirements.txt` – dependencies for reproduction
 
 ## Main Deliverables
@@ -43,7 +43,7 @@ How attacking patterns should be designed and reviewed in order to improve direc
 Open the notebook in Jupyter:
 
 ```bash
-jupyter notebook
+jupyter lab
 ```
 
 Then open:

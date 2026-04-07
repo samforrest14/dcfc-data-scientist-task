@@ -2,7 +2,9 @@ streamlit
 pandas
 numpy
 matplotlib
+seaborn
 scikit-learn
 joblib
 jupyter
 tqdm
+statsbombpy
