@@ -224,11 +224,15 @@ else:
 
 if defenders_within_5m >= 3:
     insight_lines.append(
-        "**Congestion:** Heavy local congestion reduces the likelihood of the pass leading to a shot."
+        "**Congestion:** Heavy local congestion around the receiver is associated with "
+        "a lower likelihood of direct shot creation once pass destination has been accounted for."
     )
 else:
     insight_lines.append(
-        "**Congestion:** The receiver is not in extreme local traffic, which is more favourable than heavy congestion."
+        "**Congestion:** Moderate or low local congestion around the receiver. "
+        "Note that in the raw data, passes into more congested areas tend to have "
+        "higher shot assist rates, likely reflecting that those areas are more central "
+        "and advanced. Destination remains the dominant driver."
     )
 
 if under_pressure:

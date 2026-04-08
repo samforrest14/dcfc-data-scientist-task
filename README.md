@@ -35,7 +35,7 @@ How attacking patterns should be designed and reviewed in order to improve direc
 - Pass destination is the strongest driver of direct shot creation.
 - Passes into the box are most likely to lead directly to a shot.
 - Central areas outside the box are also valuable, but less so than the box.
-- Defensive context matters: direct shot creation is most likely in areas of controlled pressure rather than in completely open or fully congested spaces.
+- Defensive context matters: direct shot creation is most likely in dangerous congested areas, once this has been controlled for, pressure from defenders can negatively impact shot creation.
 - The destination of the pass, and the defensive context it enters, matter more than the origin of the pass or the exact mechanics of its execution.
 
 ## Running the Notebook
