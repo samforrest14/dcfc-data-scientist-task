@@ -21,7 +21,7 @@ How attacking patterns should be designed and reviewed in order to improve direc
 ## Repository Structure
 
 - `project_outputs/` – main analytical notebook and 1-page written summary PDF
-- `streamlit_app/` – lightweight Streamlit decision-support tool
+- `streamlit_app/` – lightweight Streamlit relationship visualisation tool
 - `requirements.txt` – dependencies for reproduction
 
 ## Main Deliverables
@@ -43,7 +43,7 @@ How attacking patterns should be designed and reviewed in order to improve direc
 Open the notebook in Jupyter:
 
 ```bash
-jupyter notebook
+jupyter lab
 ```
 
 Then open:
@@ -51,12 +51,14 @@ Then open:
 
 ## Running the Streamlit App
 
-From the repository root:
+From the repository root, run in Python:
 ```bash
-streamlit run streamlit_app/app.py
+python -m streamlit run streamlit_app/app.py
 ```
 
 The app allows users to simulate different passing scenarios and understand how pass destination, defensive context, and delivery type influence the likelihood of direct shot creation.
+
+I have also deployed the Streamlit App using Streamlit Cloud so it does not need to be run locally. It can be accessed at the following link: https://dcfc-data-scientist-task-qyde5acdq2euwjb75we3fy.streamlit.app/
 
 ## Model interpretation
 The final logistic regression model is intended as an interpretive tool rather than a predictive model.

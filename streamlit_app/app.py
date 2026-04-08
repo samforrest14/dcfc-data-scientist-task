@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 import streamlit as st
+from pathlib import Path
 
 
 st.set_page_config(
@@ -33,8 +34,10 @@ st.markdown(
 # Load model artefacts
 @st.cache_resource
 def load_artifacts():
-    model = joblib.load("model.joblib")
-    scaler = joblib.load("scaler.joblib")
+    base_path = Path(__file__).parent
+
+    model = joblib.load(base_path / "model.joblib")
+    scaler = joblib.load(base_path / "scaler.joblib")
     features = [
         "pass_length",
         "pass_length_sq",
